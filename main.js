@@ -1,4 +1,5 @@
-var cities =(["Welcome " + " To" + " Karachi"])
+var cities =(["Welcome " + " To" ])
 var userInput = prompt("Enter City Name")
 cities.push( userInput)
+cities.pop()
 alert(cities)
